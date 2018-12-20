@@ -1,0 +1,25 @@
+{
+  "name": "@rndm/transformer-plugin-react-native",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "description": "RNDM Transformer Plugin: React Native. Transform React Native into RNDM JSON",
+  "homepage": "https://github.com/rndm-com/rndm-transformer-plugin-react-native#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-transformer-plugin-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-transformer-plugin-react-native/issues"
+  },
+  "dependencies": {
+    "react": "16.7.0-alpha.2",
+    "react-art": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-native-web": "^0.9.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.2.0"
+  }
+}
