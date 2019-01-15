@@ -2,7 +2,7 @@
 
 ## About
 
-This plugin opens the ability to write Server side React Native code that can be transformed into JSOn to be ingested by the [RNDM Renderer](https://github.com/rndm-com/rndm-render).
+This plugin opens the ability to write Server side React Native code that can be transformed into JSON to be ingested by the [RNDM Renderer](https://github.com/rndm-com/rndm-render).
 
 ## Requirements
 
@@ -16,7 +16,7 @@ In order to make use of this you will need to be using the [@rndm/transform-from
 npm install --save @rndm/transformer-plugin-react-native
 ```
 
-If you are using this as a submodule, then pass this into the 'addPlugins' method exposed by the
+If you are using this as a sub-module, then pass this into the 'addPlugins' method exposed by the
 
 ## Usage
 
