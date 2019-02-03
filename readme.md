@@ -1,12 +1,12 @@
-# RNDM Transformer: React - React Native Plugin
+# [RNDM](https://www.rndm.com) Transformer: React - React Native Plugin
 
 ## About
 
-This plugin opens the ability to write Server side React Native code that can be transformed into JSON to be ingested by the [RNDM Renderer](https://github.com/rndm-com/rndm-render).
+This plugin opens the ability to write Server side React Native code that can be transformed into JSON to be ingested by the [RNDM Renderer](https://www.rndm.com/docs/rndm-render).
 
 ## Requirements
 
-In order to make use of this you will need to be using the [@rndm/transform-from-react](https://github.com/rndm-com/rndm-transform-from-react) package.
+In order to make use of this you will need to be using the [@rndm/transform-from-react](https://www.rndm.com/docs/transformers/react) package.
 
 ## Installation
 
@@ -41,7 +41,7 @@ const Element = () => (
 export default Element;
 ```
 
-The requirements are to generate a JSON object that describes the Element function that can be ingested by the [RNDM Renderer](https://github.com/rndm-com/rndm-render);
+The requirements are to generate a JSON object that describes the Element function that can be ingested by the [RNDM Renderer](https://www.rndm.com/docs/rndm-render);
 
 In order to do this, all we have to do is wrap the Element in the transformer function.
 
